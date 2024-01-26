@@ -1,0 +1,34 @@
+.Travel-card-container {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 72rem;
+}
+
+.card {
+  height: 700px;
+  width: 100%;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.card-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
